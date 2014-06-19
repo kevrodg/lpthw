@@ -22,15 +22,26 @@ print 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
 # This prints the text inside the quotes.
 print "Is it true that 3 + 2 < 5 - 7?"
 
+# This is a somewhat tricky order of operations.
+# 3 + (2 < 5) - 7
+# 3 + (0) - 7
+# 3 - 7 = -2
 print 3 + 2 < 5 - 7
 
+# This prints the text inside the quotes and then shows what is 3 plus 2
 print "What is 3 + 2?", 3 + 2
+# Again, prints the text inside the quotes and then shows what is 5 minus 7
 print "What is 5 - 7?", 5 - 7
 
+# Prints the text inside the quotes
 print "Oh, that's why it's False."
 
+# Prints the text inside the quotes
 print "How about some more."
 
+# Prints the text inside the quotes and returns true or false based on if 5 is greater than -2. It is, so this should be true.
 print "Is it greater?", 5 > -2
+# Prints the text inside the quotes and returns true or false based on if 5 is greater than or equal to -2. It is, so this should be true.
 print "Is it greater or equal?", 5 >= -2
+# Prints the text inside the quotes and returns true or false based on if 5 is less than or equal to -2. It is not, so this should be false.
 print "It it less or equal?", 5 <= -2
